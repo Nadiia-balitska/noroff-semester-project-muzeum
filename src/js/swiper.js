@@ -1,30 +1,32 @@
-const swiper = new Swiper('.swiper-container', {
-  loop: true,
-  autoplay: {
-    delay: 2000,
-  },
-  slidesPerView: 1,
-  navigation: {
-    nextEl: '.custom-next',
-    prevEl: '.custom-prev',
-  },
-  allowTouchMove: true,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
-  breakpoints: {
-    425: {
-      slidesPerView: 2,
+document.addEventListener('DOMContentLoaded', function () {
+  const swiper = new Swiper('.swiper-container', {
+    loop: true,
+    autoplay: {
+      delay: 2000,
     },
-    765: {
-      slidesPerView: 3,
+    slidesPerView: 1,
+    navigation: {
+      nextEl: '.custom-next',
+      prevEl: '.custom-prev',
     },
-    1024: {
-      slidesPerView: 4,
+    allowTouchMove: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
     },
-    1440: {
-      slidesPerView: 5,
+    breakpoints: {
+      425: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      1440: {
+        slidesPerView: 4,
+      },
     },
-  },
+  });
 });
