@@ -5,6 +5,8 @@
 .explore_list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: start;
   gap: 46px;
 }
 
@@ -49,6 +51,8 @@
   }
   .explore_item {
     gap: 9px;
+    justify-content: center;
+    align-items: center;
   }
 
   .explore_text_wrap h3 {
