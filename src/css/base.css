@@ -23,15 +23,14 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   background: #a6d0ec;
+  padding: 0 74px;
 }
 
 main {
   flex-grow: 1;
   background: #ffffff;
-  min-width: 294px;
   max-width: 1289px;
   margin: 0 auto;
-  padding: 0 74px;
 }
 @media only screen and (max-width: 768px) {
   main {
