@@ -1,0 +1,22 @@
+.exhibition {
+  padding: 19px 0;
+}
+
+.exhibition_list {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+.exhibition_item {
+}
+
+@media only screen and (max-width: 768px) {
+  .exhibition {
+  }
+
+  .exhibition_list {
+    flex-direction: column;
+  }
+  .exhibition_item {
+  }
+}

@@ -2,10 +2,8 @@
 }
 .hero_wrap {
   background-image: url(../img/hero/hero_desc.jpg);
-  /* max-width: 1288px; */
-  /* height: 632px; */
+  height: 632px;
   width: 100vw;
-  height: 100vw;
   max-width: 100%;
   background-size: cover;
   background-position: center;
@@ -34,15 +32,13 @@
   color: #5769ec;
 }
 @media only screen and (max-width: 768px) {
-  .hero {
-    /* height: 345px; */
-  }
   .hero_wrap {
+    height: 345px;
   }
   .text_hero {
     padding-left: 9px;
     padding-top: 190px;
-    padding-bottom: 65px;
+    padding-bottom: 100px;
   }
   .hero_title {
     font-size: 24px;
