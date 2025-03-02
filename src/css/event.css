@@ -29,7 +29,6 @@
   height: 247px;
 }
 .events_item p {
-  font-family: var(--font-family);
   font-weight: bold;
   font-size: 20px;
   color: #000;

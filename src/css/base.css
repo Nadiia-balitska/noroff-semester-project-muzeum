@@ -4,11 +4,7 @@
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
+  font-weight: 700;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -27,6 +23,7 @@ body {
   overflow-x: hidden;
   overflow: auto;
   scrollbar-width: none;
+  font-family: var(--font-family);
 }
 body::-webkit-scrollbar {
   display: none;

@@ -1,5 +1,6 @@
 .exhibition {
   padding: 19px 0;
+  font-family: var(--font-family);
 }
 
 .exhibition_list {
@@ -22,13 +23,11 @@
   align-items: center;
 }
 .exhibition_item h3 {
-  font-family: var(--font-family);
   font-weight: bold;
   font-size: 24px;
   color: #000;
 }
 .exhibition_item p {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   color: #000;
