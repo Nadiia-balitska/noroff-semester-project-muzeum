@@ -22,10 +22,24 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background: #a6d0ec;
+  padding: 0 74px;
 }
 
 main {
   flex-grow: 1;
+  background: #ffffff;
+  min-width: 294px;
+  max-width: 1289px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  main {
+    min-width: 294px;
+  }
+  body {
+    padding: 0 13px;
+  }
 }
 main:has(.back-link) {
   text-align: center;
