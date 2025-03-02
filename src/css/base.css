@@ -25,6 +25,11 @@ body {
   background: #a6d0ec;
   padding: 0 74px;
   overflow-x: hidden;
+  overflow: auto;
+  scrollbar-width: none;
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 main {
