@@ -1,1 +1,5 @@
+#About
+The Community Science Museum project is a semester-long web development assignment aimed at creating an engaging and accessible museum website. The goal was to design and develop a responsive, user-friendly, and aesthetically appealing website that aligns with the provided Figma design and meets accessibility standards.
+The project was developed using HTML, CSS, JavaScript while ensuring a desctop-first approach. The website includes multiple sections such as exhibits, events, and an interactive navigation system to improve user experience. Additionally, mobile-menu.js was integrated for smooth opening modal menu, and GitHub was used for version control and collaboration.
+The project was planned using GitHub Project Board, where tasks were created and tracked to ensure a structured workflow. Image optimization techniques were applied to keep file sizes below 200kb, ensuring a fast and efficient loading experience. The website was designed to be fully responsive, adapting seamlessly across mobile, tablet, and desktop devices.
 
