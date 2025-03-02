@@ -21,9 +21,8 @@ body {
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
-  margin: 0;
+  margin: 0 auto;
   background: #a6d0ec;
-  padding: 0 74px;
 }
 
 main {
@@ -32,6 +31,7 @@ main {
   min-width: 294px;
   max-width: 1289px;
   margin: 0 auto;
+  padding: 0 74px;
 }
 @media only screen and (max-width: 768px) {
   main {
