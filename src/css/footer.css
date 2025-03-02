@@ -1,21 +1,98 @@
-.footer {
-  padding: 20px 0;
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
 }
-.footer-desc {
-  text-align: center;
+.location_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
 }
-.footer-link {
-  position: relative;
+.line {
+  width: 630px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer-link::before {
-  content: '';
-  position: absolute;
-  bottom: 6%;
-  left: 50%;
-  transform: translateX(-50%) skewX(-12deg);
-  z-index: -1;
-  width: 110%;
-  height: 24%;
-  background-color: #41d1ff;
-  transition: 200ms ease;
+.location_wrap p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 20px;
+  color: #000;
+}
+.information_text {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+.right_text_wrap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+
+.left_text_wrap {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+}
+.left_text_wrap h3,
+.right_text_wrap h3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.left_text_wrap p,
+.right_text_wrap p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 35px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  .location_wrap {
+    gap: 10px;
+  }
+  .line {
+    width: 320px;
+  }
+  .information_text {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .left_text_wrap,
+  .right_text_wrap {
+    gap: 10px;
+    width: 100%;
+  }
+  .socials {
+    width: 170px;
+    margin: 10px auto;
+  }
 }
