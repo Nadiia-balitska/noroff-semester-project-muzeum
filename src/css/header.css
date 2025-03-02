@@ -1,5 +1,6 @@
 .up_header {
-  width: auto;
+  max-width: 1440px;
+
   height: 29px;
   background: #000;
   display: flex;
@@ -91,6 +92,7 @@
 
 .modal-btn {
   padding-bottom: 24px;
+  padding-right: 40px;
 }
 
 .mobile-menu .link {

@@ -1,11 +1,19 @@
+.hero {
+  max-width: 1289px;
+  margin: 0 auto;
+  width: 100%;
+  overflow: hidden;
+}
 .hero_wrap {
   background-image: url(/img/hero/hero_desc.jpg);
   height: 632px;
-  width: 100vw;
-  max-width: 100%;
+  max-width: 1289px;
+  width: 100%;
+  max-width: 1289px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  margin: 0 auto;
 }
 .text_hero {
   padding-left: 36px;
@@ -32,6 +40,7 @@
 @media only screen and (max-width: 768px) {
   .hero_wrap {
     height: 345px;
+    width: 100%;
   }
   .text_hero {
     padding-left: 9px;

@@ -39,7 +39,7 @@
     gap: 12px;
   }
   .exhibition_item {
-    min-width: 274px;
+    max-width: 274px;
     padding: 15px;
   }
 }

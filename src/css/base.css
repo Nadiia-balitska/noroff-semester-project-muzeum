@@ -19,18 +19,18 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
+  max-width: 1440px;
   min-height: 100vh;
   margin: 0 auto;
   background: #a6d0ec;
   padding: 0 74px;
+  overflow-x: hidden;
 }
 
 main {
   flex-grow: 1;
   background: #ffffff;
-  max-width: 1289px;
-  margin: 0 auto;
+  max-width: 1290px;
 }
 @media only screen and (max-width: 768px) {
   main {

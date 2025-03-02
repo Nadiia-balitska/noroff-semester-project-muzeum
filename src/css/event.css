@@ -21,6 +21,7 @@
   width: 400px;
   height: 338px;
   background: rgba(180, 180, 180, 0.15);
+  padding: 10px;
 }
 .events_img {
   border-radius: 25px;
